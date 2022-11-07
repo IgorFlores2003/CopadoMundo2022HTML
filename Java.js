@@ -172,9 +172,9 @@ if(value3 == value4 ){
     console.log(value10);
     console.log(value11);
     console.log(value12);
-    console.log(SuicaS);
-    console.log(CamaroesS);
-    console.log(BrasilS);
-    console.log(ServiaS);
+     console.log("Suiça=",SuicaS );
+    console.log("Camaroes=",CamaroesS);
+    console.log("Brasil=",BrasilS);
+    console.log("Servia=",ServiaS);
 });
 
