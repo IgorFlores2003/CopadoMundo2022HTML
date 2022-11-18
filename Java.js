@@ -151,12 +151,15 @@ if(value3 == value4 ){
                         Ptos = 3;
                         Suica3 = Ptos;
                     }
-
+                   
                      BrasilS=Brasil+Brasil2+Brasil3;             
                      ServiaS=Servia+Servia2+Servia3;
                      SuicaS=Suica+Suica2+Suica3;
                      CamaroesS=Camaroes+Camaroes2+Camaroes3;
-
+                     document.getElementById('Brasil').innerHTML = '' + BrasilS;
+                     document.getElementById('servia').innerHTML = '' + ServiaS;
+                     document.getElementById('suica').innerHTML = '' + SuicaS;
+                     document.getElementById('camaroes').innerHTML = '' + CamaroesS;
                     
 
 
@@ -172,7 +175,7 @@ if(value3 == value4 ){
     console.log(value10);
     console.log(value11);
     console.log(value12);
-     console.log("Suiça=",SuicaS );
+    console.log("Suiça=",SuicaS );
     console.log("Camaroes=",CamaroesS);
     console.log("Brasil=",BrasilS);
     console.log("Servia=",ServiaS);
