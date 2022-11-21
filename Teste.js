@@ -11,7 +11,7 @@ const Gerador = () => {
     }
     
 }
-function timesConstrutor(sigla, nome, pt, sg) {
+function Construtor(sigla, nome, pt, sg) {
     return {
         sigla: sigla,
         nome: nome,
@@ -30,11 +30,12 @@ const atualizaColocacao = () => {
 function getRandomInt(max){
     return Math.floor(Math.random() * max);
 }
-timesGerador();
+Gerador();
 //
 async function test_case(){
     let driver = await new Builder().forBrowser("chrome").build();
     await driver.get("https://igorflores2003.github.io/CopadoMundo2022HTML/");
+   
     //popula
     var entradas = await driver.findElements(By.css(".entrada"));
     
