@@ -12,12 +12,14 @@ const Gerador = () => {
     
 }
 function Construtor(sigla, nome, pt, sg) {
+    console.log(pt)
     return {
         sigla: sigla,
         nome: nome,
         pt: pt,
         sg: sg
     }
+    console.log(pt)
 }
 const atualizaColocacao = () => {
     times.sort((a, b) => b.pt - a.pt);
@@ -35,7 +37,7 @@ Gerador();
 async function test_case(){
     let driver = await new Builder().forBrowser("chrome").build();
     await driver.get("https://igorflores2003.github.io/CopadoMundo2022HTML/");
-   
+  // await driver.get("http://127.0.0.1:5500/index.html");
     //popula
     var entradas = await driver.findElements(By.css(".entrada"));
     
@@ -43,11 +45,15 @@ async function test_case(){
         await e.clear();
         await e.sendKeys(getRandomInt(10), Key.RETURN);
     }
-    
+    var Btn = await driver.findElement(By.id("send")).click();
+    console.log(await Btn)
     let valorDaVez = 0;
     let idTime1, idTime2, sgTime1, sgTime2;
     for(let i = 1; i < 7; i++ ){
+       
         partida = await driver.findElements(By.css(`.p${i}`));
+
+        console.log(partida[i])
         
         sgTime1 = await partida[0].getAttribute("value");
         sgTime1 = parseInt(sgTime1, 10);
