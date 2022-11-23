@@ -31,17 +31,17 @@ btn.addEventListener("click" , function(e){
    
 
     const value = name.value;
-    const value2 = camaroes0.value;
-    const value3 = brazil0.value;
-    const value4 = servia0.value;
-    const value5 = camaroes1.value;
-    const value6  = servia1.value;
-    const value7 = brazil1.value;
-    const value8 = suica1.value;
-    const value9 = camaroes2.value;
-    const value10 = brazil2.value;
-    const value11 = servia2.value;
-    const value12 = suica2.value;
+    const value2 = camaroes0 1.value;
+    const value3 = brazil0 0.value;
+    const value4 = servia0 3.value;
+    const value5 = camaroes1 1.value;
+    const value6  = servia1 3.value;
+    const value7 = brazil1 0.value;
+    const value8 = suica1 2.value;
+    const value9 = camaroes2 1.value;
+    const value10 = brazil2 0.value;
+    const value11 = servia2 3.value;
+    const value12 = suica2 2.value;
 
     var Ptos = 0;
     var Suica = Ptos;
