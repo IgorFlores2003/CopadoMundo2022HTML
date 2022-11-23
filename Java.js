@@ -24,7 +24,7 @@ btn.addEventListener("click" , function(e){
 
     const brazil2 = document.querySelector("#brazil2_0");
 
-    const servia2 = document.querySelector("#servia2_3");
+    const servia2 = document.querySelector("#servia2");
 
     const suica2 = document.querySelector("#suica2_2");
 
@@ -40,7 +40,7 @@ btn.addEventListener("click" , function(e){
     const value8 = suica1_2.value;
     const value9 = camaroes2_1.value;
     const value10 = brazil2_0.value;
-    const value11 = servia2_3.value;
+    const value11 = servia2.value;
     const value12 = suica2_2.value;
 
     var Ptos = 0;
