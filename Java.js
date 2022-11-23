@@ -6,27 +6,27 @@ btn.addEventListener("click" , function(e){
 
     const name = document.querySelector("#name");
 
-    const camaroes0 = document.querySelector("#camaroes0")
+    const camaroes0 = document.querySelector("#camaroes0 1")
 
-    const brazil0 = document.querySelector("#brazil0");
+    const brazil0 = document.querySelector("#brazil0 0");
 
-    const servia0 = document.querySelector("#servia0");
+    const servia0 = document.querySelector("#servia0 3");
 
-    const camaroes1 = document.querySelector("#camaroes1");
+    const camaroes1 = document.querySelector("#camaroes1 1");
 
     const servia1= document.querySelector("#servia1");
 
-    const brazil1 = document.querySelector("#brazil1");
+    const brazil1 = document.querySelector("#brazil1 0");
 
-    const suica1 = document.querySelector("#suica1");
+    const suica1 = document.querySelector("#suica1 2 ");
 
-    const camaroes2 = document.querySelector("#camaroes2")
+    const camaroes2 = document.querySelector("#camaroes2 1")
 
-    const brazil2 = document.querySelector("#brazil2");
+    const brazil2 = document.querySelector("#brazil2 0");
 
-    const servia2 = document.querySelector("#servia2");
+    const servia2 = document.querySelector("#servia2 3");
 
-    const suica2 = document.querySelector("#suica2");
+    const suica2 = document.querySelector("#suica2 2");
 
    
 
