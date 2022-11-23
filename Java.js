@@ -24,7 +24,7 @@ btn.addEventListener("click" , function(e){
 
     const brazil2 = document.querySelector("#brazil2_0");
 
-    const servia2 = document.querySelector("#servia2_3");
+    const servia2 = document.querySelector("#servia2");
 
     const suica2 = document.querySelector("#suica2_2");
 
