@@ -6,42 +6,42 @@ btn.addEventListener("click" , function(e){
 
     const name = document.querySelector("#name");
 
-    const camaroes0 = document.querySelector("#camaroes0 1")
+    const camaroes0 = document.querySelector("#camaroes0_1")
 
-    const brazil0 = document.querySelector("#brazil0 0");
+    const brazil0 = document.querySelector("#brazil0_0");
 
-    const servia0 = document.querySelector("#servia0 3");
+    const servia0 = document.querySelector("#servia0_3");
 
-    const camaroes1 = document.querySelector("#camaroes1 1");
+    const camaroes1 = document.querySelector("#camaroes1_1");
 
     const servia1= document.querySelector("#servia1");
 
-    const brazil1 = document.querySelector("#brazil1 0");
+    const brazil1 = document.querySelector("#brazil1_0");
 
-    const suica1 = document.querySelector("#suica1 2 ");
+    const suica1 = document.querySelector("#suica1_2 ");
 
-    const camaroes2 = document.querySelector("#camaroes2 1")
+    const camaroes2 = document.querySelector("#camaroes2_1")
 
-    const brazil2 = document.querySelector("#brazil2 0");
+    const brazil2 = document.querySelector("#brazil2_0");
 
-    const servia2 = document.querySelector("#servia2 3");
+    const servia2 = document.querySelector("#servia2_3");
 
-    const suica2 = document.querySelector("#suica2 2");
+    const suica2 = document.querySelector("#suica2_2");
 
    
 
     const value = name.value;
-    const value2 = camaroes0 1.value;
-    const value3 = brazil0 0.value;
-    const value4 = servia0 3.value;
-    const value5 = camaroes1 1.value;
-    const value6  = servia1 3.value;
-    const value7 = brazil1 0.value;
-    const value8 = suica1 2.value;
-    const value9 = camaroes2 1.value;
-    const value10 = brazil2 0.value;
-    const value11 = servia2 3.value;
-    const value12 = suica2 2.value;
+    const value2 = camaroes0_1.value;
+    const value3 = brazil0_0.value;
+    const value4 = servia0_3.value;
+    const value5 = camaroes1_1.value;
+    const value6  = servia1.value;
+    const value7 = brazil1_0.value;
+    const value8 = suica1_2.value;
+    const value9 = camaroes2_1.value;
+    const value10 = brazil2_0.value;
+    const value11 = servia2_3.value;
+    const value12 = suica2_2.value;
 
     var Ptos = 0;
     var Suica = Ptos;
